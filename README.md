@@ -74,3 +74,19 @@ You will need ruby 2.6.2 to run
 
 To run the test suite just do `./scripts/test`
 To open a console and fiddle around do `./scripts/console`
+
+## Architecture
+
+This app follows a very simple architecture.
+Phases are:
+1. Run `app.rb`
+2. Instantiate `Parser` to parse out the options
+3. Instantiate appropriate `command` to do the actual work (Standard Command pattern)
+4. Load model data via `ActiveResource`
+
+Because the API does not support all options (like searching via API) I just hack the finders a bit to allow the app to use the same classic AR patterns (where...)
+
+![Paper Misc 1](https://user-images.githubusercontent.com/419903/59505532-f1dc3780-8ea5-11e9-9e2d-924ff54373ac.png)
+
+
+

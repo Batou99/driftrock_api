@@ -1,0 +1,10 @@
+require 'minitest/autorun'
+require 'minitest/mock'
+
+require_relative '../lib/parser'
+require_relative '../lib/most_sold'
+require_relative '../lib/most_loyal'
+require_relative '../lib/total_spend'
+require_relative '../models/user'
+require_relative '../models/purchase'
+require 'mocha/minitest'

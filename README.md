@@ -77,6 +77,13 @@ To open a console and fiddle around do `./scripts/console`
 
 ## Architecture
 
+I've purposely tried to keep this as simple as possible and bring in as few gems as I can.
+
+1. ActiveResource: To connecto to the api easily
+2. ActiveSupport: To be able to do `Array#sum`
+3. Mocha: For easy stubbing
+4. Pry: Much better app console than standard irb + better breakpoints
+
 This app follows a very simple architecture.
 Phases are:
 1. Run `app.rb`

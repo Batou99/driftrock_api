@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Move to the base project directory if not there already.
+cd "$(dirname "$0")"/..
+
+pry

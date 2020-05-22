@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.6.2'
 
-gem 'activeresource', '~> 5.1.0'
+gem 'activeresource', '~> 5.1.1'
 gem 'activesupport', '~> 5.2.3'
 
 group :development, :test do

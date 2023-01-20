@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.6.2'
 
 gem 'activeresource', '~> 5.1.0'
-gem 'activesupport', '~> 5.2.3'
+gem 'activesupport', '~> 6.1.7'
 
 group :development, :test do
   gem 'pry', '~> 0.12.2'
